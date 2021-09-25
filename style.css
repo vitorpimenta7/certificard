@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, black 27%, #7a7a77 73%);
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+.container {
+  background: white;
+  color: #1c1c1c;
+  margin: 60px;
+  border-radius: 80px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-imagem {
+  border-radius: 450px;
+  max-height: 160px;
+  box-shadow: 0px 5px 5px #808080;
+}
+
+.redes {
+  font-wheight: 200;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.titulo {
+  margin-left: 21px;
+  color: black;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+  font-size: 22px;
+
+  background: linear-gradient(230.85deg, grey 20%, black 80%);
+  margin-top: 20px;
+  padding: 32px;
+  border-radius: 70px;
+}
+
+.titulo {
+  font-wheight: 200;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-wheight: 1000;
+  font-size: 50px;
+  color: white;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 33px;
+  font-wheight: 700;
+  font-height: 48;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+  font-wheight: 700;
+  font-size: 25px;
+}
